@@ -1,4 +1,5 @@
-Author:thman	E-mail:thmanrico@163.com	Github:github.com/thmanrico	Web:thmanrico.github.io
+Author:thippo	E-mail:thippo@163.com	Github:https://github.com/thippo	Web:http://thippo.github.io/
 
-get_fasta_dict	#处理fasta格式文件
-multiple_replace	#对一个字符串的多个字符同时做替换
+Get_Fasta_Dict	#处理fasta格式文件
+Multiple_Replace	#对一个字符串的多个字符同时做替换
+Analyse_Interposcan_Result.py	#分析interproscan后的文件
