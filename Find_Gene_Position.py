@@ -53,18 +53,11 @@ position_tuple=('+/-',position_min,position_max)
 					if (int(i[1].strip())-int(position_tuple[2]))>0:
 						return i[0]
 		else:
-				for i in self.element_list:
-					if ((int(i[1].strip())-int(position_tuple[1])<0 and int(i[2].strip())-int(position_tuple[1])>0) or (int(i[1].strip())-int(position_tuple[2])<0 and int(i[2].strip())-int(position_tuple[2])>0)):
-						return 'inside'
+			for i in self.element_list:
+				if ((int(i[1].strip())-int(position_tuple[1])<0 and int(i[2].strip())-int(position_tuple[1])>0) or (int(i[1].strip())-int(position_tuple[2])<0 and int(i[2].strip())-int(position_tuple[2])>0)):
+					return 'inside'
+				else:
+					if (int(i[2].strip())-int(position_tuple[1]))>0:
+						return n
 					else:
-						if (int(i[2].strip())-int(position_tuple[1]))>0:
-							return n
-						else:
-							n=i[0]
-					
-if 'Minus' in i:
-    gene_name_down=find_gene_downstream(('-',position_min_list[0],position_max_list[0]))
-    gene_name_up=find_gene_upstream(('-',position_min_list[0],position_max_list[0]))
-else:
-    gene_name_down=find_gene_downstream(('+',position_min_list[0],position_max_list[0]))
-    gene_name_up=find_gene_upstream(('+',position_min_list[0],position_max_list[0]))
+						n=i[0]
