@@ -5,3 +5,4 @@ Multiple_Replace	#对一个字符串的多个字符同时做替换
 Analyse_Interposcan_Result	#分析interproscan后的文件
 Get_Web_Content #获取网页源文件，就是模仿浏览器的爬虫
 Find_Gene_Position	#查找指定区域是否在基因内以及上下游的基因
+Heatmap	#用matplotlib以DataFrame画热基图
