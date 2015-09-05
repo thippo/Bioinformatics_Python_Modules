@@ -1,3 +1,6 @@
+#writen by thippo
+#python version 3.4.3
+
 class Email():
     
     def __init__(self,username,password):
