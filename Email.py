@@ -2,14 +2,14 @@
 #python version 3.4.3
 
 class Email():
-    
+
     def __init__(self,username,password):
         import smtplib
         self.username=username
         self.smtp=smtplib.SMTP()
         self.smtp.connect(self._getsmtp()[0],self._getsmtp()[1])
         self.smtp.login(username,password)
-        
+
     def _getsmtp(self):
         if 'gmail.com' in self.username:
             return 'smtp.'+self.username[self.username.index('@')+1:],'587'
