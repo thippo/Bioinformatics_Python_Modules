@@ -10,7 +10,7 @@ get_web_content #获取网页源文件，就是模仿浏览器的爬虫
 find_gene_position	#查找指定区域是否在基因内以及上下游的基因
 heatmap	#用matplotlib以DataFrame画热基图
 figure_to_array	#将图片转换成一个三维数组
-email.py	#用python发邮件
+send_email.py	#用python发邮件
 figure_segmentation	#图片切割
 getORF	#最长开放阅读框
 repeats_sequence	#指定长度序列的重复个数
