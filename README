@@ -1,11 +1,16 @@
-Author:thippo	E-mail:thippo@163.com	Github:https://github.com/thippo	Web:http://thippo.github.io/
+Author:thippo
+E-mail:thippo@163.com
+Github:https://github.com/thippo
+Web:http://thippo.github.io/
 
-Get_Fasta_Dict	#处理fasta格式文件
-Multiple_Replace	#对一个字符串的多个字符同时做替换
-Analyse_Interposcan_Result	#分析interproscan后的文件
-Get_Web_Content #获取网页源文件，就是模仿浏览器的爬虫
-Find_Gene_Position	#查找指定区域是否在基因内以及上下游的基因
-Heatmap	#用matplotlib以DataFrame画热基图
-Pic_To_Array	#将图片转换成一个三维数组
-Email.py	#用python发邮件
-Figure_Segmentation	#图片切割
+get_fasta_dict	#处理fasta格式文件
+multiple_replace	#对一个字符串的多个字符同时做替换
+analyse_interposcan_result	#分析interproscan后的文件
+get_web_content #获取网页源文件，就是模仿浏览器的爬虫
+find_gene_position	#查找指定区域是否在基因内以及上下游的基因
+heatmap	#用matplotlib以DataFrame画热基图
+figure_to_array	#将图片转换成一个三维数组
+email.py	#用python发邮件
+figure_segmentation	#图片切割
+getORF	#最长开放阅读框
+repeats_sequence	#指定长度序列的重复个数
