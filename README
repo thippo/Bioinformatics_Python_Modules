@@ -14,3 +14,4 @@ send_email.py	#用python发邮件
 figure_segmentation	#图片切割
 getORF	#最长开放阅读框
 repeats_sequence	#指定长度序列的重复个数
+denoise #将矩阵中零散的点清除
