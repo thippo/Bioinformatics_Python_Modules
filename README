@@ -15,3 +15,5 @@ figure_segmentation	#图片切割
 getORF	#最长开放阅读框
 repeats_sequence	#指定长度序列的重复个数
 denoise #将矩阵中零散的点清除
+stack_count	#计算矩阵中非1点的堆数(上下相连)
+cosine	#计算夹角余弦
