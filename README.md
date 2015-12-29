@@ -19,3 +19,4 @@
  - stack_count　#计算矩阵中非1点的堆数(上下相连)
  - cosine　#计算夹角余弦
  - multiprocessing_multithreading　#多进程多线程简单用法
+ - mymkdir　#新建文件夹，如已存在可选择是否删除原文件夹
