@@ -21,3 +21,4 @@
  - multiprocessing_multithreading　#多进程多线程简单用法
  - mymkdir　#新建文件夹，如已存在可选择是否删除原文件夹
  - dict_order　#字典键值排序
+ - ProgressBar　#进度条

@@ -1,4 +1,4 @@
-def repeats_sequence(seq_list,length):
+def repeat_sequence(seq_list,length):
     '''
     parameters:
     seq_list: must be list or tuple with string
