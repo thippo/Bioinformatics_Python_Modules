@@ -22,3 +22,5 @@
  - mymkdir　#新建文件夹，如已存在可选择是否删除原文件夹
  - dict_order　#字典键值排序
  - ProgressBar　#进度条
+ - domain_to_ip　#域名转IP
+ - ip_information　#获取IP地址的详细信息
