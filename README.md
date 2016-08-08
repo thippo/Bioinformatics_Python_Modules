@@ -24,3 +24,4 @@
  - ProgressBar　#进度条
  - domain_to_ip　#域名转IP
  - ip_information　#获取IP地址的详细信息
+ - link_cluster　#连接对聚类
