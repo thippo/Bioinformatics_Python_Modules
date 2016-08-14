@@ -1,5 +1,5 @@
 ###Author: 　**thippo**   
-####E-mail:　[thippo@163.com](mailto:thippo@163.com)　[thippo@aliyun.com](mailto:thippo@aliyun.com)   
+####E-mail:　[thippo@163.com](mailto:thippo@163.com)   
 ####Github:　[https://github.com/thippo](https://github.com/thippo)   
 ####Blog:　[http://thippo.github.io/](http://thippo.github.io/)   
 ---
