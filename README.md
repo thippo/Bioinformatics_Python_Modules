@@ -25,3 +25,4 @@
  - domain_to_ip　#域名转IP
  - ip_information　#获取IP地址的详细信息
  - link_cluster　#连接对聚类
+ - youdao_tanslate_api　#有道翻译API
