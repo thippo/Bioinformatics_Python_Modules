@@ -26,4 +26,4 @@
  - ip_information　#获取IP地址的详细信息
  - link_cluster　#连接对聚类
  - youdao_tanslate_api　#有道翻译API
- - sorted_dict　#字典排序
+ - PrintColor　#linux输出带颜色的字体
