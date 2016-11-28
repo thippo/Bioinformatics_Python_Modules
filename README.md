@@ -27,3 +27,4 @@
  - link_cluster　#连接对聚类
  - youdao_tanslate_api　#有道翻译API
  - PrintColor　#linux输出带颜色的字体
+ - Endput　#最后一行不换行
