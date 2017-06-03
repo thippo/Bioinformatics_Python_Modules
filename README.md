@@ -29,3 +29,4 @@
  - PrintColor　#linux输出带颜色的字体
  - Endput　#最后一行不换行
  - WaveSteam　#音频流
+ - NonlinearRegression　#非线性回归拟合
