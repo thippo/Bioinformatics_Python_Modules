@@ -14,12 +14,12 @@ class Nonlinear_Regression():
         self.formula = formula
 
     def fit(self, initial=(73,4,1), iter=1000):
-        popt, pcov = curve_fit(self.formula, self.data[0], self.data[1], p0=(73,4,1), maxfev=iter)
-        print(popt)
-        print(pcov)
+        self.popt, self.pcov = curve_fit(self.formula, self.data[0], self.data[1], p0=(73,4,1), maxfev=iter)
+        print(self.popt)
+        print(self.pcov)
 
     def show(self):
-        plt.plot(np.linspace(0,30,500),self.formula(np.linspace(0,30,500),*popt))
+        plt.plot(np.linspace(0,30,500),self.formula(np.linspace(0,30,500),*self.popt))
         plt.scatter(self.data[0],self.data[1],color='b') 
         plt.show()
 
