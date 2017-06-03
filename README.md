@@ -1,7 +1,7 @@
-###Author: 　**thippo**   
-####E-mail:　[thippo@163.com](mailto:thippo@163.com)   
-####Github:　[https://github.com/thippo](https://github.com/thippo)   
-####Blog:　[http://thippo.github.io/](http://thippo.github.io/)   
+##Author: 　**thippo**   
+###E-mail:　[thippo@163.com](mailto:thippo@163.com)   
+###Github:　[https://github.com/thippo](https://github.com/thippo)   
+###Blog:　[http://thippo.github.io/](http://thippo.github.io/)   
 ---
 
  - get_fasta_dict　#处理fasta格式文件
@@ -28,3 +28,4 @@
  - youdao_tanslate_api　#有道翻译API
  - PrintColor　#linux输出带颜色的字体
  - Endput　#最后一行不换行
+ - WaveSteam　#音频流
