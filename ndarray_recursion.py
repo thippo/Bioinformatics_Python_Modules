@@ -1,5 +1,5 @@
 def ndarray_recursion(a_array,shape_array,n=0):
-    if len(shape_array)>2:
+    if len(shape_array)>=2:
         if(n==len(shape_array)-2):
             return '['+(',').join([ str(x) for x in a_array])+']'
         return '['+','.join([ndarray_recursion(a_array[x],shape_array,n+1) for x in range(shape_array[n])])+']'
