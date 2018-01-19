@@ -31,3 +31,4 @@
  - WaveSteam　#音频流
  - NonlinearRegression　#非线性回归拟合
  - ndarray_recursion　#多维数组转成字符串
+ - reverse_strand　#DNA互补链
